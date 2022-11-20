@@ -10,6 +10,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
+  > main {
+    display: flex;
+    flex: 1;
+  }
 }
 
 .header {
@@ -40,4 +45,19 @@
     border: none;
     cursor: pointer;
   }
+}
+
+.picksContainer {
+  display: flex;
+  flex: 1;
+  background-color: red;
+}
+
+.fenixWallpaper {
+  display: flex;
+  flex: 1;
+  background-image: url(/fenix.svg);
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
 }
