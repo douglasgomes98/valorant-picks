@@ -1,0 +1,17 @@
+{
+  "name": "valorant-picks",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "yarn clean && yarn vite build --base=./ && touch dist/.nojekyll",
+    "preview": "vite preview",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "sass": "^1.56.1",
+    "vite": "^3.2.3"
+  }
+}
