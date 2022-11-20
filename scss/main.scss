@@ -2,4 +2,42 @@
 
 .container {
   display: flex;
+  flex-direction: column;
+  flex: 1;
+  height: 100vh;
+  background-color: $dark;
+  background-image: url(/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2.5rem;
+  padding-left: 9.375rem;
+  padding-right: 9.375rem;
+
+  > a {
+    display: flex;
+  }
+
+  > title {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.0625rem;
+    color: $white;
+    display: block;
+  }
+
+  > button {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
 }
